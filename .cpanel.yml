@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/nats1663/public_html/natanaelcaesario.com/development.iconnet/
+    - /bin/cp -R * $DEPLOYPATH
